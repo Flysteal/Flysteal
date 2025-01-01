@@ -1,0 +1,3 @@
+/home/fly/Downloads/SKY-t5/build/CMakeFiles/SKY_LANDS.dir
+/home/fly/Downloads/SKY-t5/build/CMakeFiles/edit_cache.dir
+/home/fly/Downloads/SKY-t5/build/CMakeFiles/rebuild_cache.dir

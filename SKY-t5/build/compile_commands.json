@@ -1,0 +1,38 @@
+[
+{
+  "directory": "/home/fly/Downloads/SKY-t5/build",
+  "command": "/usr/bin/c++  -I/home/fly/Downloads/SKY-t5/SKY_LANDS/include -I/home/fly/Downloads/SKY-t5/SKY_LANDS/HeaderFiles -g -std=gnu++17 -o CMakeFiles/SKY_LANDS.dir/src/main.cpp.o -c /home/fly/Downloads/SKY-t5/SKY_LANDS/src/main.cpp",
+  "file": "/home/fly/Downloads/SKY-t5/SKY_LANDS/src/main.cpp",
+  "output": "CMakeFiles/SKY_LANDS.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/fly/Downloads/SKY-t5/build",
+  "command": "/usr/bin/c++  -I/home/fly/Downloads/SKY-t5/SKY_LANDS/include -I/home/fly/Downloads/SKY-t5/SKY_LANDS/HeaderFiles -g -std=gnu++17 -o CMakeFiles/SKY_LANDS.dir/src/ShaderClass.cpp.o -c /home/fly/Downloads/SKY-t5/SKY_LANDS/src/ShaderClass.cpp",
+  "file": "/home/fly/Downloads/SKY-t5/SKY_LANDS/src/ShaderClass.cpp",
+  "output": "CMakeFiles/SKY_LANDS.dir/src/ShaderClass.cpp.o"
+},
+{
+  "directory": "/home/fly/Downloads/SKY-t5/build",
+  "command": "/usr/bin/c++  -I/home/fly/Downloads/SKY-t5/SKY_LANDS/include -I/home/fly/Downloads/SKY-t5/SKY_LANDS/HeaderFiles -g -std=gnu++17 -o CMakeFiles/SKY_LANDS.dir/src/VAO.cpp.o -c /home/fly/Downloads/SKY-t5/SKY_LANDS/src/VAO.cpp",
+  "file": "/home/fly/Downloads/SKY-t5/SKY_LANDS/src/VAO.cpp",
+  "output": "CMakeFiles/SKY_LANDS.dir/src/VAO.cpp.o"
+},
+{
+  "directory": "/home/fly/Downloads/SKY-t5/build",
+  "command": "/usr/bin/c++  -I/home/fly/Downloads/SKY-t5/SKY_LANDS/include -I/home/fly/Downloads/SKY-t5/SKY_LANDS/HeaderFiles -g -std=gnu++17 -o CMakeFiles/SKY_LANDS.dir/src/VBO.cpp.o -c /home/fly/Downloads/SKY-t5/SKY_LANDS/src/VBO.cpp",
+  "file": "/home/fly/Downloads/SKY-t5/SKY_LANDS/src/VBO.cpp",
+  "output": "CMakeFiles/SKY_LANDS.dir/src/VBO.cpp.o"
+},
+{
+  "directory": "/home/fly/Downloads/SKY-t5/build",
+  "command": "/usr/bin/c++  -I/home/fly/Downloads/SKY-t5/SKY_LANDS/include -I/home/fly/Downloads/SKY-t5/SKY_LANDS/HeaderFiles -g -std=gnu++17 -o CMakeFiles/SKY_LANDS.dir/src/EBO.cpp.o -c /home/fly/Downloads/SKY-t5/SKY_LANDS/src/EBO.cpp",
+  "file": "/home/fly/Downloads/SKY-t5/SKY_LANDS/src/EBO.cpp",
+  "output": "CMakeFiles/SKY_LANDS.dir/src/EBO.cpp.o"
+},
+{
+  "directory": "/home/fly/Downloads/SKY-t5/build",
+  "command": "/usr/bin/cc  -I/home/fly/Downloads/SKY-t5/SKY_LANDS/include -I/home/fly/Downloads/SKY-t5/SKY_LANDS/HeaderFiles -g -o CMakeFiles/SKY_LANDS.dir/src/glad.c.o -c /home/fly/Downloads/SKY-t5/SKY_LANDS/src/glad.c",
+  "file": "/home/fly/Downloads/SKY-t5/SKY_LANDS/src/glad.c",
+  "output": "CMakeFiles/SKY_LANDS.dir/src/glad.c.o"
+}
+]
