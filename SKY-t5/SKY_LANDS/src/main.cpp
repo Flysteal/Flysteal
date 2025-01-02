@@ -8,12 +8,7 @@
 #include "VAO.h"
 #include "VBO.h"
 #include "EBO.h"
-//Hello
-//ok//Hello
-//ok//Hello
-//ok//Hello
-//ok//Hello
-//ok
+
 
 GLfloat vertices[] =
 {
