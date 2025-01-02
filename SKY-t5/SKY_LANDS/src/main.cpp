@@ -8,8 +8,12 @@
 #include "VAO.h"
 #include "VBO.h"
 #include "EBO.h"
-
-
+//Hello
+//ok//Hello
+//ok//Hello
+//ok//Hello
+//ok//Hello
+//ok
 
 GLfloat vertices[] =
 {
@@ -27,12 +31,6 @@ GLuint indices[] =
 
 };// .. the wey to go
 
-// Callback function for window resizing  !!!!BROKEN!!
-/*oid framebuffer_size_callback(GLFWwindow* window, int width, int height) {
-    width = 360;
-    height= 420;
-    glViewport(0, 0, width, height); //custom rezize
-} */
 
 int main()
 {
