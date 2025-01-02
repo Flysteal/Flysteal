@@ -1,5 +1,4 @@
 
-this is my game 
 
 I’m currently learning C++. 
 I’m looking for feedback. You can reach me through Discord: _flysteal.
