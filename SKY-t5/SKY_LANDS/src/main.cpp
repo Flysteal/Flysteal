@@ -2,9 +2,9 @@
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 #include <stb/stb_image.h>
-#include <glm/glm.hpp>
-#include <glm/gtc/matrix_transform.hpp>
-#include <glm/gtc/type_ptr.hpp>
+#include "glm/glm.hpp"
+#include "glm/gtc/matrix_transform.hpp" 
+#include "glm/gtc/type_ptr.hpp" 
 
 #include "Texture.h"
 #include "ShaderClass.h"
@@ -12,6 +12,8 @@
 #include "VBO.h"
 #include "EBO.h"
 
+const unsigned int width = 800;
+const unsigned int height = 800;
 
 GLfloat vertices[] =
 {
@@ -42,7 +44,7 @@ int main()
     if (!glfwInit()) { std::cerr << "Failed to initialize GLFW" << std::endl;
         return -1;  //check for error
      }
-     GLFWwindow* window = glfwCreateWindow(800, 800, "Sky Lands", nullptr, nullptr);
+     GLFWwindow* window = glfwCreateWindow(width, height, "Sky Lands", nullptr, nullptr);
      if (!window) { std::cerr << "Failed to create GLFW window" << std::endl;
         glfwTerminate(); //here too
         return -2;
@@ -88,7 +90,7 @@ int main()
 
     //glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
     glfwSwapInterval(true); //vsync on 
-    glViewport(0, 0, 800, 800); 
+    glViewport(0, 0, height, height); 
 
     while (!glfwWindowShouldClose(window))
     {
@@ -99,7 +101,19 @@ int main()
 
     shaderProgram.Activate();
 
-    
+    glm::mat4 model = glm::mat4(1.0f);
+    glm::mat4 view  = glm::mat4(1.0f);
+    glm::mat4 proj  = glm::mat4(1.0f);
+
+    view = glm::translate(view, glm::vec3(0.0f, -0.5f, -2.0f));
+    proj = glm::perspective(glm::radians(45.0f), (float)(width / height), 0.1f, 100.0f);
+
+    int modelLoc = glGetUniformLocation(shaderProgram.ID, "model");
+	glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+    int viewLoc = glGetUniformLocation(shaderProgram.ID, "view");
+    glUniformMatrix4fv(viewLoc, 1, GL_FALSE, glm::value_ptr(view));
+    int projLoc = glGetUniformLocation(shaderProgram.ID, "proj");
+    glUniformMatrix4fv(projLoc, 1, GL_FALSE, glm::value_ptr(proj));
 
     glUniform1f(uniID, 0.0f); // float value foe shaders !
     popCat.Bind();

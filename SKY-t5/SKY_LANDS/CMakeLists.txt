@@ -14,8 +14,8 @@ find_package(OpenGL REQUIRED)
 # Include directories
 include_directories(include)
 include_directories(HeaderFiles)
-# Add the third_party directory to the include path
-include_directories(${CMAKE_SOURCE_DIR}/include)
+include_directories(${CMAKE_SOURCE_DIR}/include)  # Include the 'include' folder
+include_directories(${CMAKE_SOURCE_DIR}/include/glm)  # Include the 'glm' folder
 
 # Find all .cpp files in src directory
 file(GLOB_RECURSE SOURCES "${CMAKE_SOURCE_DIR}/src/*.cpp")
