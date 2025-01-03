@@ -107,7 +107,8 @@
 				3,
 				4,
 				5,
-				6
+				6,
+				7
 			]
 		},
 		{
@@ -139,7 +140,7 @@
 			"language" : "C",
 			"sourceIndexes" : 
 			[
-				7
+				8
 			]
 		}
 	],
@@ -194,12 +195,19 @@
 				4,
 				5,
 				6,
-				7
+				7,
+				8
 			]
 		}
 	],
 	"sources" : 
 	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Camera.cpp",
+			"sourceGroupIndex" : 0
+		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
