@@ -52,7 +52,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /usr/bin/cmake --regenerate-during-build -S/media/fly/o-o/SKY-t5/SKY_LANDS -B/media/fly/o-o/SKY-t5/build
+  command = /usr/bin/cmake --regenerate-during-build -S/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS -B/media/fly/o-o/GitHub/Flysteal/SKY-t5/build
   description = Re-running CMake...
   generator = 1
 

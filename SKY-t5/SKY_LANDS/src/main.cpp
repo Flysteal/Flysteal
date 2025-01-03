@@ -2,33 +2,36 @@
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 #include <stb/stb_image.h>
+#include "glm/glm.hpp"
+#include "glm/gtc/matrix_transform.hpp" 
+#include "glm/gtc/type_ptr.hpp" 
 
 #include "Texture.h"
 #include "ShaderClass.h"
 #include "VAO.h"
 #include "VBO.h"
 #include "EBO.h"
-//Hello
-//ok//Hello
-//ok//Hello
-//ok//Hello
-//ok//Hello
-//ok
+
+const unsigned int width = 800;
+const unsigned int height = 800;
 
 GLfloat vertices[] =
 {
-  -0.5, -0.5, 0.0,  1.0f, 0.0f, 0.0f,  0.0f, 0.0f, 
-  -0.5,  0.5, 0.0,  0.0f, 1.0f, 0.0f,  0.0f, 1.0f,
-   0.5,  0.5, 0.0,  0.0f, 0.0f, 1.0f,  1.0f, 1.0f,
-   0.5, -0.5, 0.0,  1.0f, 1.0f, 1.0f,  1.0f, 0.0f,
-   
+	-0.5f, 0.0f,  0.5f,     0.83f, 0.70f, 0.44f,	0.0f, 0.0f,
+	-0.5f, 0.0f, -0.5f,     0.83f, 0.70f, 0.44f,	5.0f, 0.0f,
+	 0.5f, 0.0f, -0.5f,     0.83f, 0.70f, 0.44f,	0.0f, 0.0f,
+	 0.5f, 0.0f,  0.5f,     0.83f, 0.70f, 0.44f,	5.0f, 0.0f,
+	 0.0f, 0.8f,  0.0f,     0.92f, 0.86f, 0.76f,	2.5f, 5.0f 
 };// x, y, z, R, G, B,
 
 GLuint indices[] =
 {
-    0, 2, 1,
-    0, 3, 2,
-
+	0, 1, 2,
+	0, 2, 3,
+	0, 1, 4,
+	1, 2, 4,
+	2, 3, 4,
+	3, 0, 4,
 };// .. the wey to go
 
 
@@ -44,7 +47,7 @@ int main()
     if (!glfwInit()) { std::cerr << "Failed to initialize GLFW" << std::endl;
         return -1;  //check for error
      }
-     GLFWwindow* window = glfwCreateWindow(800, 800, "Sky Lands", nullptr, nullptr);
+     GLFWwindow* window = glfwCreateWindow(width, height, "Sky Lands", nullptr, nullptr);
      if (!window) { std::cerr << "Failed to create GLFW window" << std::endl;
         glfwTerminate(); //here too
         return -2;
@@ -58,7 +61,7 @@ int main()
     gladLoadGL();
 
     // Generates Shader object using shaders defualt.vert and default.frag
-    Shader shaderProgram("/media/fly/o-o/SKY-t5/SKY_LANDS/Resourcefiles/Shader/default.vert", "/media/fly/o-o/SKY-t5/SKY_LANDS/Resourcefiles/Shader/default.frag");
+    Shader shaderProgram("../SKY_LANDS/Resourcefiles/Shader/default.vert", "../SKY_LANDS/Resourcefiles/Shader/default.frag");
     // Generates Vertex Array Object and binds it
     VAO VAO1;
     VAO1.Bind();
@@ -85,26 +88,51 @@ int main()
     GL_TEXTURE_2D, GL_TEXTURE0, GL_RGBA, GL_UNSIGNED_BYTE);
     popCat.texUnit(shaderProgram, "tex0", 0);
 
-
+    float rotation = 0.0f;
+    double prevTime = glfwGetTime();
 
 
     //glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
     glfwSwapInterval(true); //vsync on 
-    glViewport(0, 0, 800, 800); 
+    glViewport(0, 0, height, height); 
+    glEnable(GL_DEPTH_TEST);
 
     while (!glfwWindowShouldClose(window))
     {
 
     glClearColor(0.02f, 0.13f, 0.23f, 1.0f); //color
 
-    glClear(GL_COLOR_BUFFER_BIT); // clears buffer
+    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT); // clears buffer
 
     shaderProgram.Activate();
+
+    double crntTime = glfwGetTime();
+	if (crntTime - prevTime >= 1 / 60)
+	{
+		rotation += 0.5f;
+		prevTime = crntTime;
+	}
+
+    glm::mat4 model = glm::mat4(1.0f);
+    glm::mat4 view  = glm::mat4(1.0f);
+    glm::mat4 proj  = glm::mat4(1.0f);
+
+    model = glm::rotate(model, glm::radians(rotation), glm::vec3(0.0f, 1.0f, 0.0f));
+	view = glm::translate(view, glm::vec3(0.0f, -0.5f, -2.0f));
+	proj = glm::perspective(glm::radians(45.0f), (float)width / height, 0.1f, 100.0f);
+
+    int modelLoc = glGetUniformLocation(shaderProgram.ID, "model");
+	glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+    int viewLoc = glGetUniformLocation(shaderProgram.ID, "view");
+    glUniformMatrix4fv(viewLoc, 1, GL_FALSE, glm::value_ptr(view));
+    int projLoc = glGetUniformLocation(shaderProgram.ID, "proj");
+    glUniformMatrix4fv(projLoc, 1, GL_FALSE, glm::value_ptr(proj));
+
     glUniform1f(uniID, 0.0f); // float value foe shaders !
     popCat.Bind();
     VAO1.Bind();
 
-    glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0); //yup
+    glDrawElements(GL_TRIANGLES, sizeof(indices)/ sizeof(int), GL_UNSIGNED_INT, 0); //yup
 
     glfwSwapBuffers(window);
     glfwPollEvents();
