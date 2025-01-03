@@ -53,7 +53,7 @@ int main()
     gladLoadGL();
 
     // Generates Shader object using shaders defualt.vert and default.frag
-    Shader shaderProgram("/media/fly/o-o/SKY-t5/SKY_LANDS/Resourcefiles/Shader/default.vert", "/media/fly/o-o/SKY-t5/SKY_LANDS/Resourcefiles/Shader/default.frag");
+    Shader shaderProgram("../SKY_LANDS/Resourcefiles/Shader/default.vert", "../SKY_LANDS/Resourcefiles/Shader/default.frag");
     // Generates Vertex Array Object and binds it
     VAO VAO1;
     VAO1.Bind();
