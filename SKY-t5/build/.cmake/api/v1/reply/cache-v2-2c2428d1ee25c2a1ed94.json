@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/media/fly/o-o/SKY-t5/build"
+			"value" : "/media/fly/o-o/GitHub/Flysteal/SKY-t5/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -527,7 +527,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/media/fly/o-o/SKY-t5/build/CMakeFiles/pkgRedirects"
+			"value" : "/media/fly/o-o/GitHub/Flysteal/SKY-t5/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -587,7 +587,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/media/fly/o-o/SKY-t5/SKY_LANDS"
+			"value" : "/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1419,7 +1419,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/media/fly/o-o/SKY-t5/build"
+			"value" : "/media/fly/o-o/GitHub/Flysteal/SKY-t5/build"
 		},
 		{
 			"name" : "SKY_LANDS_IS_TOP_LEVEL",
@@ -1443,7 +1443,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/media/fly/o-o/SKY-t5/SKY_LANDS"
+			"value" : "/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",

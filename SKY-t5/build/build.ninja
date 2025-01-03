@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /media/fly/o-o/SKY-t5/build/
+cmake_ninja_workdir = /media/fly/o-o/GitHub/Flysteal/SKY-t5/build/
 # =============================================================================
 # Object build statements for EXECUTABLE target SKY_LANDS
 
@@ -49,59 +49,59 @@ cmake_ninja_workdir = /media/fly/o-o/SKY-t5/build/
 
 build cmake_object_order_depends_target_SKY_LANDS: phony || CMakeFiles/SKY_LANDS.dir
 
-build CMakeFiles/SKY_LANDS.dir/src/EBO.cpp.o: CXX_COMPILER__SKY_LANDS_unscanned_Debug /media/fly/o-o/SKY-t5/SKY_LANDS/src/EBO.cpp || cmake_object_order_depends_target_SKY_LANDS
+build CMakeFiles/SKY_LANDS.dir/src/EBO.cpp.o: CXX_COMPILER__SKY_LANDS_unscanned_Debug /media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/src/EBO.cpp || cmake_object_order_depends_target_SKY_LANDS
   DEP_FILE = CMakeFiles/SKY_LANDS.dir/src/EBO.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/media/fly/o-o/SKY-t5/SKY_LANDS/include -I/media/fly/o-o/SKY-t5/SKY_LANDS/HeaderFiles -I/media/fly/o-o/SKY-t5/SKY_LANDS/include/stb
+  INCLUDES = -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/include -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/HeaderFiles -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/include/stb
   OBJECT_DIR = CMakeFiles/SKY_LANDS.dir
   OBJECT_FILE_DIR = CMakeFiles/SKY_LANDS.dir/src
 
-build CMakeFiles/SKY_LANDS.dir/src/ShaderClass.cpp.o: CXX_COMPILER__SKY_LANDS_unscanned_Debug /media/fly/o-o/SKY-t5/SKY_LANDS/src/ShaderClass.cpp || cmake_object_order_depends_target_SKY_LANDS
+build CMakeFiles/SKY_LANDS.dir/src/ShaderClass.cpp.o: CXX_COMPILER__SKY_LANDS_unscanned_Debug /media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/src/ShaderClass.cpp || cmake_object_order_depends_target_SKY_LANDS
   DEP_FILE = CMakeFiles/SKY_LANDS.dir/src/ShaderClass.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/media/fly/o-o/SKY-t5/SKY_LANDS/include -I/media/fly/o-o/SKY-t5/SKY_LANDS/HeaderFiles -I/media/fly/o-o/SKY-t5/SKY_LANDS/include/stb
+  INCLUDES = -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/include -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/HeaderFiles -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/include/stb
   OBJECT_DIR = CMakeFiles/SKY_LANDS.dir
   OBJECT_FILE_DIR = CMakeFiles/SKY_LANDS.dir/src
 
-build CMakeFiles/SKY_LANDS.dir/src/Texture.cpp.o: CXX_COMPILER__SKY_LANDS_unscanned_Debug /media/fly/o-o/SKY-t5/SKY_LANDS/src/Texture.cpp || cmake_object_order_depends_target_SKY_LANDS
+build CMakeFiles/SKY_LANDS.dir/src/Texture.cpp.o: CXX_COMPILER__SKY_LANDS_unscanned_Debug /media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/src/Texture.cpp || cmake_object_order_depends_target_SKY_LANDS
   DEP_FILE = CMakeFiles/SKY_LANDS.dir/src/Texture.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/media/fly/o-o/SKY-t5/SKY_LANDS/include -I/media/fly/o-o/SKY-t5/SKY_LANDS/HeaderFiles -I/media/fly/o-o/SKY-t5/SKY_LANDS/include/stb
+  INCLUDES = -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/include -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/HeaderFiles -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/include/stb
   OBJECT_DIR = CMakeFiles/SKY_LANDS.dir
   OBJECT_FILE_DIR = CMakeFiles/SKY_LANDS.dir/src
 
-build CMakeFiles/SKY_LANDS.dir/src/VAO.cpp.o: CXX_COMPILER__SKY_LANDS_unscanned_Debug /media/fly/o-o/SKY-t5/SKY_LANDS/src/VAO.cpp || cmake_object_order_depends_target_SKY_LANDS
+build CMakeFiles/SKY_LANDS.dir/src/VAO.cpp.o: CXX_COMPILER__SKY_LANDS_unscanned_Debug /media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/src/VAO.cpp || cmake_object_order_depends_target_SKY_LANDS
   DEP_FILE = CMakeFiles/SKY_LANDS.dir/src/VAO.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/media/fly/o-o/SKY-t5/SKY_LANDS/include -I/media/fly/o-o/SKY-t5/SKY_LANDS/HeaderFiles -I/media/fly/o-o/SKY-t5/SKY_LANDS/include/stb
+  INCLUDES = -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/include -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/HeaderFiles -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/include/stb
   OBJECT_DIR = CMakeFiles/SKY_LANDS.dir
   OBJECT_FILE_DIR = CMakeFiles/SKY_LANDS.dir/src
 
-build CMakeFiles/SKY_LANDS.dir/src/VBO.cpp.o: CXX_COMPILER__SKY_LANDS_unscanned_Debug /media/fly/o-o/SKY-t5/SKY_LANDS/src/VBO.cpp || cmake_object_order_depends_target_SKY_LANDS
+build CMakeFiles/SKY_LANDS.dir/src/VBO.cpp.o: CXX_COMPILER__SKY_LANDS_unscanned_Debug /media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/src/VBO.cpp || cmake_object_order_depends_target_SKY_LANDS
   DEP_FILE = CMakeFiles/SKY_LANDS.dir/src/VBO.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/media/fly/o-o/SKY-t5/SKY_LANDS/include -I/media/fly/o-o/SKY-t5/SKY_LANDS/HeaderFiles -I/media/fly/o-o/SKY-t5/SKY_LANDS/include/stb
+  INCLUDES = -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/include -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/HeaderFiles -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/include/stb
   OBJECT_DIR = CMakeFiles/SKY_LANDS.dir
   OBJECT_FILE_DIR = CMakeFiles/SKY_LANDS.dir/src
 
-build CMakeFiles/SKY_LANDS.dir/src/main.cpp.o: CXX_COMPILER__SKY_LANDS_unscanned_Debug /media/fly/o-o/SKY-t5/SKY_LANDS/src/main.cpp || cmake_object_order_depends_target_SKY_LANDS
+build CMakeFiles/SKY_LANDS.dir/src/main.cpp.o: CXX_COMPILER__SKY_LANDS_unscanned_Debug /media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/src/main.cpp || cmake_object_order_depends_target_SKY_LANDS
   DEP_FILE = CMakeFiles/SKY_LANDS.dir/src/main.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/media/fly/o-o/SKY-t5/SKY_LANDS/include -I/media/fly/o-o/SKY-t5/SKY_LANDS/HeaderFiles -I/media/fly/o-o/SKY-t5/SKY_LANDS/include/stb
+  INCLUDES = -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/include -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/HeaderFiles -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/include/stb
   OBJECT_DIR = CMakeFiles/SKY_LANDS.dir
   OBJECT_FILE_DIR = CMakeFiles/SKY_LANDS.dir/src
 
-build CMakeFiles/SKY_LANDS.dir/src/stb.cpp.o: CXX_COMPILER__SKY_LANDS_unscanned_Debug /media/fly/o-o/SKY-t5/SKY_LANDS/src/stb.cpp || cmake_object_order_depends_target_SKY_LANDS
+build CMakeFiles/SKY_LANDS.dir/src/stb.cpp.o: CXX_COMPILER__SKY_LANDS_unscanned_Debug /media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/src/stb.cpp || cmake_object_order_depends_target_SKY_LANDS
   DEP_FILE = CMakeFiles/SKY_LANDS.dir/src/stb.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/media/fly/o-o/SKY-t5/SKY_LANDS/include -I/media/fly/o-o/SKY-t5/SKY_LANDS/HeaderFiles -I/media/fly/o-o/SKY-t5/SKY_LANDS/include/stb
+  INCLUDES = -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/include -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/HeaderFiles -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/include/stb
   OBJECT_DIR = CMakeFiles/SKY_LANDS.dir
   OBJECT_FILE_DIR = CMakeFiles/SKY_LANDS.dir/src
 
-build CMakeFiles/SKY_LANDS.dir/src/glad.c.o: C_COMPILER__SKY_LANDS_unscanned_Debug /media/fly/o-o/SKY-t5/SKY_LANDS/src/glad.c || cmake_object_order_depends_target_SKY_LANDS
+build CMakeFiles/SKY_LANDS.dir/src/glad.c.o: C_COMPILER__SKY_LANDS_unscanned_Debug /media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/src/glad.c || cmake_object_order_depends_target_SKY_LANDS
   DEP_FILE = CMakeFiles/SKY_LANDS.dir/src/glad.c.o.d
   FLAGS = -g
-  INCLUDES = -I/media/fly/o-o/SKY-t5/SKY_LANDS/include -I/media/fly/o-o/SKY-t5/SKY_LANDS/HeaderFiles -I/media/fly/o-o/SKY-t5/SKY_LANDS/include/stb
+  INCLUDES = -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/include -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/HeaderFiles -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/include/stb
   OBJECT_DIR = CMakeFiles/SKY_LANDS.dir
   OBJECT_FILE_DIR = CMakeFiles/SKY_LANDS.dir/src
 
@@ -127,7 +127,7 @@ build SKY_LANDS: CXX_EXECUTABLE_LINKER__SKY_LANDS_Debug CMakeFiles/SKY_LANDS.dir
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /media/fly/o-o/SKY-t5/build && /usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /media/fly/o-o/GitHub/Flysteal/SKY-t5/build && /usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -138,7 +138,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /media/fly/o-o/SKY-t5/build && /usr/bin/cmake --regenerate-during-build -S/media/fly/o-o/SKY-t5/SKY_LANDS -B/media/fly/o-o/SKY-t5/build
+  COMMAND = cd /media/fly/o-o/GitHub/Flysteal/SKY-t5/build && /usr/bin/cmake --regenerate-during-build -S/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS -B/media/fly/o-o/GitHub/Flysteal/SKY-t5/build
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -154,7 +154,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: /media/fly/o-o/SKY-t5/build
+# Folder: /media/fly/o-o/GitHub/Flysteal/SKY-t5/build
 
 build all: phony SKY_LANDS
 
@@ -165,14 +165,14 @@ build all: phony SKY_LANDS
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /media/fly/o-o/SKY-t5/SKY_LANDS/CMakeLists.txt /usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3Config.cmake /usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3ConfigVersion.cmake /usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3Targets-none.cmake /usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3Targets.cmake /usr/share/cmake-3.28/Modules/CMakeCInformation.cmake /usr/share/cmake-3.28/Modules/CMakeCXXInformation.cmake /usr/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake-3.28/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake /usr/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake-3.28/Modules/Compiler/GNU-C.cmake /usr/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake-3.28/Modules/Compiler/GNU.cmake /usr/share/cmake-3.28/Modules/FindOpenGL.cmake /usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake-3.28/Modules/FindPackageMessage.cmake /usr/share/cmake-3.28/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake /usr/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake-3.28/Modules/Platform/Linux.cmake /usr/share/cmake-3.28/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.28.3/CMakeCCompiler.cmake CMakeFiles/3.28.3/CMakeCXXCompiler.cmake CMakeFiles/3.28.3/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/CMakeLists.txt /usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3Config.cmake /usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3ConfigVersion.cmake /usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3Targets-none.cmake /usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3Targets.cmake /usr/share/cmake-3.28/Modules/CMakeCInformation.cmake /usr/share/cmake-3.28/Modules/CMakeCXXInformation.cmake /usr/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake-3.28/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake /usr/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake-3.28/Modules/Compiler/GNU-C.cmake /usr/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake-3.28/Modules/Compiler/GNU.cmake /usr/share/cmake-3.28/Modules/FindOpenGL.cmake /usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake-3.28/Modules/FindPackageMessage.cmake /usr/share/cmake-3.28/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake /usr/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake-3.28/Modules/Platform/Linux.cmake /usr/share/cmake-3.28/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.28.3/CMakeCCompiler.cmake CMakeFiles/3.28.3/CMakeCXXCompiler.cmake CMakeFiles/3.28.3/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /media/fly/o-o/SKY-t5/SKY_LANDS/CMakeLists.txt /usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3Config.cmake /usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3ConfigVersion.cmake /usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3Targets-none.cmake /usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3Targets.cmake /usr/share/cmake-3.28/Modules/CMakeCInformation.cmake /usr/share/cmake-3.28/Modules/CMakeCXXInformation.cmake /usr/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake-3.28/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake /usr/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake-3.28/Modules/Compiler/GNU-C.cmake /usr/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake-3.28/Modules/Compiler/GNU.cmake /usr/share/cmake-3.28/Modules/FindOpenGL.cmake /usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake-3.28/Modules/FindPackageMessage.cmake /usr/share/cmake-3.28/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake /usr/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake-3.28/Modules/Platform/Linux.cmake /usr/share/cmake-3.28/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.28.3/CMakeCCompiler.cmake CMakeFiles/3.28.3/CMakeCXXCompiler.cmake CMakeFiles/3.28.3/CMakeSystem.cmake: phony
+build /media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/CMakeLists.txt /usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3Config.cmake /usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3ConfigVersion.cmake /usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3Targets-none.cmake /usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3Targets.cmake /usr/share/cmake-3.28/Modules/CMakeCInformation.cmake /usr/share/cmake-3.28/Modules/CMakeCXXInformation.cmake /usr/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake-3.28/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake /usr/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake-3.28/Modules/Compiler/GNU-C.cmake /usr/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake-3.28/Modules/Compiler/GNU.cmake /usr/share/cmake-3.28/Modules/FindOpenGL.cmake /usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake-3.28/Modules/FindPackageMessage.cmake /usr/share/cmake-3.28/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake /usr/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake-3.28/Modules/Platform/Linux.cmake /usr/share/cmake-3.28/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.28.3/CMakeCCompiler.cmake CMakeFiles/3.28.3/CMakeCXXCompiler.cmake CMakeFiles/3.28.3/CMakeSystem.cmake: phony
 
 
 #############################################

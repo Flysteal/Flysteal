@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "SKY_LANDS::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-SKY_LANDS-Debug-37e7de62613c8abd8b67.json",
+					"jsonFile" : "target-SKY_LANDS-Debug-ea2418cbb61a037db6d2.json",
 					"name" : "SKY_LANDS",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/media/fly/o-o/SKY-t5/build",
-		"source" : "/media/fly/o-o/SKY-t5/SKY_LANDS"
+		"build" : "/media/fly/o-o/GitHub/Flysteal/SKY-t5/build",
+		"source" : "/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS"
 	},
 	"version" : 
 	{

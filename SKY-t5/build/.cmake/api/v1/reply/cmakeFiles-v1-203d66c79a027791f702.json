@@ -6,7 +6,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "/media/fly/o-o/SKY-t5/build/CMakeFiles/3.28.3/CMakeSystem.cmake"
+			"path" : "/media/fly/o-o/GitHub/Flysteal/SKY-t5/build/CMakeFiles/3.28.3/CMakeSystem.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -20,11 +20,11 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "/media/fly/o-o/SKY-t5/build/CMakeFiles/3.28.3/CMakeCCompiler.cmake"
+			"path" : "/media/fly/o-o/GitHub/Flysteal/SKY-t5/build/CMakeFiles/3.28.3/CMakeCCompiler.cmake"
 		},
 		{
 			"isGenerated" : true,
-			"path" : "/media/fly/o-o/SKY-t5/build/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake"
+			"path" : "/media/fly/o-o/GitHub/Flysteal/SKY-t5/build/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -161,8 +161,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/media/fly/o-o/SKY-t5/build",
-		"source" : "/media/fly/o-o/SKY-t5/SKY_LANDS"
+		"build" : "/media/fly/o-o/GitHub/Flysteal/SKY-t5/build",
+		"source" : "/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS"
 	},
 	"version" : 
 	{

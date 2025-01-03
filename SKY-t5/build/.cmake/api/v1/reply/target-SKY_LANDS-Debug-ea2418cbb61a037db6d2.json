@@ -69,15 +69,15 @@
 			[
 				{
 					"backtrace" : 3,
-					"path" : "/media/fly/o-o/SKY-t5/SKY_LANDS/include"
+					"path" : "/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/include"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/media/fly/o-o/SKY-t5/SKY_LANDS/HeaderFiles"
+					"path" : "/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/HeaderFiles"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "/media/fly/o-o/SKY-t5/SKY_LANDS/include/stb"
+					"path" : "/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/include/stb"
 				}
 			],
 			"language" : "CXX",
@@ -111,15 +111,15 @@
 			[
 				{
 					"backtrace" : 3,
-					"path" : "/media/fly/o-o/SKY-t5/SKY_LANDS/include"
+					"path" : "/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/include"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/media/fly/o-o/SKY-t5/SKY_LANDS/HeaderFiles"
+					"path" : "/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/HeaderFiles"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "/media/fly/o-o/SKY-t5/SKY_LANDS/include/stb"
+					"path" : "/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/include/stb"
 				}
 			],
 			"language" : "C",
