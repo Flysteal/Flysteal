@@ -17,7 +17,7 @@ include_directories(HeaderFiles)
 include_directories(${CMAKE_SOURCE_DIR}/include)  # Include the 'include' folder
 include_directories(${CMAKE_SOURCE_DIR}/include/glm)  # Include the 'glm' folder
 
-# Find all .cpp files in src directory
+# Find all .cpp files in src directory 
 file(GLOB_RECURSE SOURCES "${CMAKE_SOURCE_DIR}/src/*.cpp")
 
 # Add the executable target
