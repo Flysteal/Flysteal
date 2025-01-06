@@ -1,55 +1,55 @@
 [
 {
   "directory": "/media/fly/o-o/GitHub/Flysteal/SKY-t5/build",
-  "command": "/usr/bin/g++ -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/include -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/HeaderFiles -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/include/glm -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/include/stb -g -std=gnu++17 -o CMakeFiles/SKY_LANDS.dir/src/Camera.cpp.o -c /media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/src/Camera.cpp",
+  "command": "/usr/bin/g++ -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/include -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/HeaderFiles -g -std=gnu++17 -o CMakeFiles/SKY_LANDS.dir/src/Camera.cpp.o -c /media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/src/Camera.cpp",
   "file": "/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/src/Camera.cpp",
   "output": "CMakeFiles/SKY_LANDS.dir/src/Camera.cpp.o"
 },
 {
   "directory": "/media/fly/o-o/GitHub/Flysteal/SKY-t5/build",
-  "command": "/usr/bin/g++ -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/include -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/HeaderFiles -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/include/glm -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/include/stb -g -std=gnu++17 -o CMakeFiles/SKY_LANDS.dir/src/EBO.cpp.o -c /media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/src/EBO.cpp",
+  "command": "/usr/bin/g++ -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/include -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/HeaderFiles -g -std=gnu++17 -o CMakeFiles/SKY_LANDS.dir/src/EBO.cpp.o -c /media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/src/EBO.cpp",
   "file": "/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/src/EBO.cpp",
   "output": "CMakeFiles/SKY_LANDS.dir/src/EBO.cpp.o"
 },
 {
   "directory": "/media/fly/o-o/GitHub/Flysteal/SKY-t5/build",
-  "command": "/usr/bin/g++ -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/include -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/HeaderFiles -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/include/glm -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/include/stb -g -std=gnu++17 -o CMakeFiles/SKY_LANDS.dir/src/ShaderClass.cpp.o -c /media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/src/ShaderClass.cpp",
+  "command": "/usr/bin/g++ -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/include -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/HeaderFiles -g -std=gnu++17 -o CMakeFiles/SKY_LANDS.dir/src/ShaderClass.cpp.o -c /media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/src/ShaderClass.cpp",
   "file": "/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/src/ShaderClass.cpp",
   "output": "CMakeFiles/SKY_LANDS.dir/src/ShaderClass.cpp.o"
 },
 {
   "directory": "/media/fly/o-o/GitHub/Flysteal/SKY-t5/build",
-  "command": "/usr/bin/g++ -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/include -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/HeaderFiles -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/include/glm -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/include/stb -g -std=gnu++17 -o CMakeFiles/SKY_LANDS.dir/src/Texture.cpp.o -c /media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/src/Texture.cpp",
+  "command": "/usr/bin/g++ -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/include -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/HeaderFiles -g -std=gnu++17 -o CMakeFiles/SKY_LANDS.dir/src/Texture.cpp.o -c /media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/src/Texture.cpp",
   "file": "/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/src/Texture.cpp",
   "output": "CMakeFiles/SKY_LANDS.dir/src/Texture.cpp.o"
 },
 {
   "directory": "/media/fly/o-o/GitHub/Flysteal/SKY-t5/build",
-  "command": "/usr/bin/g++ -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/include -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/HeaderFiles -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/include/glm -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/include/stb -g -std=gnu++17 -o CMakeFiles/SKY_LANDS.dir/src/VAO.cpp.o -c /media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/src/VAO.cpp",
+  "command": "/usr/bin/g++ -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/include -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/HeaderFiles -g -std=gnu++17 -o CMakeFiles/SKY_LANDS.dir/src/VAO.cpp.o -c /media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/src/VAO.cpp",
   "file": "/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/src/VAO.cpp",
   "output": "CMakeFiles/SKY_LANDS.dir/src/VAO.cpp.o"
 },
 {
   "directory": "/media/fly/o-o/GitHub/Flysteal/SKY-t5/build",
-  "command": "/usr/bin/g++ -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/include -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/HeaderFiles -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/include/glm -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/include/stb -g -std=gnu++17 -o CMakeFiles/SKY_LANDS.dir/src/VBO.cpp.o -c /media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/src/VBO.cpp",
+  "command": "/usr/bin/g++ -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/include -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/HeaderFiles -g -std=gnu++17 -o CMakeFiles/SKY_LANDS.dir/src/VBO.cpp.o -c /media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/src/VBO.cpp",
   "file": "/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/src/VBO.cpp",
   "output": "CMakeFiles/SKY_LANDS.dir/src/VBO.cpp.o"
 },
 {
   "directory": "/media/fly/o-o/GitHub/Flysteal/SKY-t5/build",
-  "command": "/usr/bin/g++ -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/include -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/HeaderFiles -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/include/glm -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/include/stb -g -std=gnu++17 -o CMakeFiles/SKY_LANDS.dir/src/main.cpp.o -c /media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/src/main.cpp",
+  "command": "/usr/bin/g++ -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/include -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/HeaderFiles -g -std=gnu++17 -o CMakeFiles/SKY_LANDS.dir/src/main.cpp.o -c /media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/src/main.cpp",
   "file": "/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/src/main.cpp",
   "output": "CMakeFiles/SKY_LANDS.dir/src/main.cpp.o"
 },
 {
   "directory": "/media/fly/o-o/GitHub/Flysteal/SKY-t5/build",
-  "command": "/usr/bin/g++ -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/include -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/HeaderFiles -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/include/glm -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/include/stb -g -std=gnu++17 -o CMakeFiles/SKY_LANDS.dir/src/stb.cpp.o -c /media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/src/stb.cpp",
+  "command": "/usr/bin/g++ -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/include -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/HeaderFiles -g -std=gnu++17 -o CMakeFiles/SKY_LANDS.dir/src/stb.cpp.o -c /media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/src/stb.cpp",
   "file": "/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/src/stb.cpp",
   "output": "CMakeFiles/SKY_LANDS.dir/src/stb.cpp.o"
 },
 {
   "directory": "/media/fly/o-o/GitHub/Flysteal/SKY-t5/build",
-  "command": "/usr/bin/gcc -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/include -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/HeaderFiles -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/include/glm -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/include/stb -g -o CMakeFiles/SKY_LANDS.dir/src/glad.c.o -c /media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/src/glad.c",
+  "command": "/usr/bin/gcc -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/include -I/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/HeaderFiles -g -o CMakeFiles/SKY_LANDS.dir/src/glad.c.o -c /media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/src/glad.c",
   "file": "/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/src/glad.c",
   "output": "CMakeFiles/SKY_LANDS.dir/src/glad.c.o"
 }

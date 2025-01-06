@@ -14,8 +14,6 @@ find_package(OpenGL REQUIRED)
 # Include directories
 include_directories(include)
 include_directories(HeaderFiles)
-include_directories(${CMAKE_SOURCE_DIR}/include)  # Include the 'include' folder
-include_directories(${CMAKE_SOURCE_DIR}/include/glm)  # Include the 'glm' folder
 
 # Find all .cpp files in src directory 
 file(GLOB_RECURSE SOURCES "${CMAKE_SOURCE_DIR}/src/*.cpp")
@@ -25,7 +23,5 @@ add_executable(SKY_LANDS ${SOURCES} src/glad.c)
 
 # Link OpenGL and GLFW to the executable
 target_link_libraries(SKY_LANDS ${OPENGL_LIBRARIES} glfw)
-# Add stb_image implementation
-target_include_directories(SKY_LANDS PRIVATE ${CMAKE_SOURCE_DIR}/include/stb)
 
 message(STATUS "include paths: ${CMAKE_INCLUDE_PATH}")
