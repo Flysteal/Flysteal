@@ -1,16 +1,17 @@
 #ifndef TEXTURE_CLASS_H
 #define TEXTURE_CLASS_H
 
-#include<stb/stb_image.h>
-
 #include"ShaderClass.h"
+#include<stb/stb_image.h>
 
 class Texture
 {
 public:
 	GLuint ID;
 	GLenum type;
-	Texture(const char* image, GLenum texType, GLenum slot, GLenum format, GLenum pixelType);
+	GLuint unit;
+
+	Texture(const char* image, GLenum texType, GLuint slot, GLenum format, GLenum pixelType);
 
 	// Assigns a texture unit to a texture
 	void texUnit(Shader& shader, const char* uniform, GLuint unit);
