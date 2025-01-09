@@ -60,10 +60,6 @@ void Camera::Inputs(GLFWwindow* window)
 	if(glfwGetKey(window, GLFW_KEY_0) == GLFW_PRESS){
 		Position = glm::vec3(0.0f, 3.0f, 0.0f);
 	}
-	if(glfwGetKey(window, GLFW_KEY_9) == GLFW_PRESS){
-		
-	}
-	
 	if (glfwGetKey(window, GLFW_KEY_LEFT_SHIFT) == GLFW_PRESS)
 	{
 		speed = 0.01f;

@@ -1,7 +1,7 @@
 #ifndef CAMERA_CLASS_H
 #define CAMERA_CLASS_H
 
-#include"ShaderClass.h"
+#include<glad/glad.h>
 #include<GLFW/glfw3.h>
 #include<glm/glm.hpp>
 #include<glm/gtc/matrix_transform.hpp>
@@ -9,6 +9,7 @@
 #include<glm/gtx/rotate_vector.hpp>
 #include<glm/gtx/vector_angle.hpp>
 
+#include"shaderClass.h"
 
 class Camera
 {
@@ -27,8 +28,8 @@ public:
 	int height;
 
 	// Adjust the speed of the camera and it's sensitivity when looking around
-	float speed = 0.05f;
-	float sensitivity = 200.0f;
+	float speed = 0.1f;
+	float sensitivity = 100.0f;
 
 	// Camera constructor to set up initial values
 	Camera(int width, int height, glm::vec3 position);
@@ -39,6 +40,5 @@ public:
 	void Matrix(Shader& shader, const char* uniform);
 	// Handles camera inputs
 	void Inputs(GLFWwindow* window);
-	
 };
 #endif

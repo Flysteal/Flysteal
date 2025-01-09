@@ -87,7 +87,8 @@
 				4,
 				5,
 				6,
-				7
+				7,
+				8
 			]
 		},
 		{
@@ -111,7 +112,7 @@
 			"language" : "C",
 			"sourceIndexes" : 
 			[
-				8
+				9
 			]
 		}
 	],
@@ -167,7 +168,8 @@
 				5,
 				6,
 				7,
-				8
+				8,
+				9
 			]
 		}
 	],
@@ -188,7 +190,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/ShaderClass.cpp",
+			"path" : "src/Mesh.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -213,6 +215,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "src/main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/shaderClass.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
