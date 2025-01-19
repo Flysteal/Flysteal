@@ -58,7 +58,7 @@ int main()
 
 	
 	// Load in a model
-	Model model("/media/fly/o-o/GitHub/Flysteal/SKY-t5/bunny/scene.gltf");
+	Model model("/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/Resourcefiles/models/Islands/island1.gltf");
 
     while (!glfwWindowShouldClose(window))
     {
@@ -67,7 +67,7 @@ int main()
     	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT); // clears buffer
 
     	camera.Inputs(window);
-		camera.updateMatrix(45.0f, 0.1f, 100.0f);
+		camera.updateMatrix(45.0f, 0.1f, 1000.0f);
 
 	    // Draw a model
 		model.Draw(shaderProgram, camera);
